@@ -1,0 +1,14 @@
+package prototype;
+public class CalculateBMI {
+    double height;
+    double weight;
+    double bmi;
+    public double calculate(double a, double b)
+    {
+        height = a;
+        weight = b;
+        bmi = weight / (height * height);
+        
+        return bmi;
+    }
+}
